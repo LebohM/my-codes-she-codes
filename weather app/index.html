@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./Stylesheet.css">
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+   
+</head>
+<body>
+    <div class="container">
+      <div class="search">
+      <form action="">
+        <input type="text" id="textbox" placeholder="search for a city">
+        <button id="Btnsearch">
+        <img src="./images/search.png">
+      </button>
+      </form>
+     
+      </div>
+      <div class="current-city">
+        <h2 id="h1-city">Durban </h2>
+        <h2 id="tempnow">21°C</h2>
+          <!--<span>
+            <h2>
+            <a href="#" class="temp" id="cels">°C</a>
+            <a href="#" class="temp" id="fahr">°F</a>
+            </h2>
+           </span>-->        
+          
+        <!--<img src="./images/partly-cloudy1.png">-->
+        <p id="day"></p>
+        <p>
+        <span id="discribe">Partly Cloudy</span>
+        </p>
+      </div> 
+        <ul class="firstUl">
+          <li>Temperature <br><br id="temp">25°C</li>
+          <li>humidity <br><br id="humid">00%</li>
+          <li>Wind <br><br id="wind">32km/h</li>
+        </ul>
+
+        <ul class="days">
+          <li>Mon <br>☀️ <br> 25°17°</li>
+          <li>Tue <br>☀️ <br>25°18°</li>
+          <li>Wed <br>☀️ <br>24°17°</li>
+          <li>Thu <br>☀️ <br>27°18°</li>
+          <li>Fri <br>☀️ <br>25°17°</li>
+
+        </ul>
+    </div>
+
+     <script type="text/javascript" src="./src/weather.js"></script>
+</body>
+</html>

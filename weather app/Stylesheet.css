@@ -1,0 +1,83 @@
+.container {
+  width: 500px;
+  background-image: linear-gradient(to right, #5b548a, #00feba);
+  display: block;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-radius: 10px;
+}
+form .search {
+  width: 100%;
+  display: flex;
+  margin: 10px;
+}
+.search input {
+  width: 300px;
+  margin: 10px 10px 10px 30px;
+  border: none;
+  border-radius: 30px;
+  height: 30px;
+  padding: 5px 25px;
+  flex: 1;
+  margin-left: 15px;
+  font-size: 16px;
+  align-items: center;
+  outline: 0;
+}
+.search button {
+  border: 0;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  margin-right: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 1px;
+}
+.search button:hover {
+  background-image: linear-gradient(to left, #5b548a, #00feba);
+}
+.search button img:hover {
+  background-image: linear-gradient(to left, #5b548a, #00feba);
+}
+.search button img {
+  width: 30px;
+  border-radius: 50px;
+  margin-right: 20px;
+  padding: 2.5px;
+  mix-blend-mode: multiply;
+}
+
+.current-city {
+  display: block;
+  margin: 0 auto;
+}
+.current-city h2 {
+  font-weight: lighter;
+  text-align: center;
+  margin: 10px;
+}
+.current-city p {
+  font-weight: lighter;
+  text-align: center;
+}
+.current-city img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
+  mix-blend-mode: multiply;
+}
+.temp{
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
+/*https://codesandbox.io/s/old-shadow-kb4g5m?file=/Stylesheet.css:0-1340*/
