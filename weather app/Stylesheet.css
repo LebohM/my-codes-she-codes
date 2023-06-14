@@ -68,6 +68,14 @@ form .search {
   border-radius: 30px;
   mix-blend-mode: multiply;
 }
+.first-ul{
+  margin: 0px;
+  align-items: center;
+}
+.first-ul li{
+  margin: 0px;
+  align-items: center;
+}
 .temp{
   font-size: 14px;
   padding-top: 15px;
@@ -79,5 +87,11 @@ ul {
 li {
   display: inline-block;
   margin: 20px;
+}
+footer{
+text-align: center;
+}
+footer span{
+text-align: center;
 }
 /*https://codesandbox.io/s/old-shadow-kb4g5m?file=/Stylesheet.css:0-1340*/

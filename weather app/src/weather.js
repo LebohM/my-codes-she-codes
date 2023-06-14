@@ -55,7 +55,7 @@ const search = document.querySelector("#Btnsearch");
 search.addEventListener("click", SearchCity);
 
 function handleSubmit(event) {
-  //event.preventDefault();
+  event.preventDefault();
   let city = document.querySelector("#textbox").value;
   SearchCity(city);
   console.log(city);
