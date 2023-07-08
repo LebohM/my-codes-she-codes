@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
+     <!--====font-awesome script=== -->
+    <script src="https://kit.fontawesome.com/124c1417d6.js" crossorigin="anonymous"></script>
     <!--==== CSS=== -->
     <link rel="stylesheet" type="text/css" href="./StyleSheet.css">
 </head>
@@ -12,15 +14,15 @@
 <body>
  <!---top section-->
 
- <div class="topSection">
+ <div class="topSection" id="Top-Sec">
     <nav>
         <h2 class="logo">Portfo<span>lio</span></h2>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#Top-Sec">Home</a></li>
+            <li><a href="#About-Sec">About Me</a></li>
+            <li><a href="#Services-Sec">Services</a></li>
+            <!--<li><a href="#">Skills</a></li>-->
+            <li><a href="#Contact-Sec">Contact Me</a></li>
         </ul>  
         <a href="#" class="Btn">Subscribe</a> 
     </nav>
@@ -29,17 +31,18 @@
         <h4>Hello, my name is</h4>
         <h1>Lebohang <span>Mofo</span></h1>
         <h3>I am an aspiring Software Developer</h3>
+        <h4>This is my work still in Progress</h4>
 
-       <div class="newsletter">
+       <!--<div class="newsletter">-
         <form>
             <input type="email" id="mail" placeholder="Enter Your Email">
             <input type="submit" name="Sbtn" value="Get In Touch">
         </form>
-        </div>
+        </div>-->
     </div>
  </div>
 <!----==== About Section ====---->
-<section class="About">
+<section class="About" id="About-Sec">
     <div class="mainAbt">
         <img src="Images/gray.jpg" alt="">
         <div class="about-text">
@@ -59,31 +62,89 @@
                 </ul>
                 <br/>
             </p>
-            <button>Talk to Me</button>
+            <a href="mailto:leeramokwena1@gmail.com"><button>Talk to Me</button></a>
+        </div>
+    </div>
+</section>
+<!----==== About Section ====---->
+<section id="Services-Sec">
+    <div class="services">
+        <div class="tittle">
+            <h2>Our Services</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="paragraph">
+                    <p>If you are in need of a website,
+                        either for personal branding or for business,
+                        that's one of my expertise.
+                        feel free to contact me.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-sharp fa-solid fa-gears"></i>
+                <h5>Software Testing</h5>
+                <div class="paragraph">
+                    <p>want to ensure that your web or application works perfecty,   
+                        feel free to contact me.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+             <div class="card">
+                <i class="fa-brands fa-android"></i>
+                <h5>App Development</h5>
+                <div class="paragraph">
+                    <p>Do you have for an application,let me develop your idea into reality,
+                    feel free to contact me.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 <!--======Contact Me=====-->
 
-<section class="Contact">
+<section class="Contact" id="Contact-Sec">
   <div class="cntct-text">
     <h2>Are You Hiring</h2>
-    <h2>Contact</h2>
+    <!--<h2>Contact</h2>-->
     <p>
-      Good day, thank you for taking your time and stop by, i hope you like what you see.  
+      Good day, thank you for taking your time to stop by, i hope you like what you see.
+      <br>I can't wait to hear from you. 
     </p>
-    
+    <div class="form-card">
+    <form action="">
+        <input type="text" placeholder="Enter your name">
+        <input type="text" placeholder="Enter your surname">
+        <input type="text" placeholder="Enter your email">
+
+        <textarea name="message" id="" cols="30" rows="10">Leave a message</textarea>
+        <button>Submit</button>
+    </form>
+    </div>
   </div>
-  </section>
+  </section> 
 <footer>
+    <p> Lebohang Mofo</p>
+    <p>Want to Know Me Better,Follow Me On Socials</p>
     <ul>
-        <li><a href="">LinkedIn |</a></li>
-        <li><a href="">Github |</a></li>
-        <li><a href="">Instagram |</a></li>
-        <li><a href="">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i> LinkedIn |</a></li>
+        <li><a href="https://github.com/LebohM/my-codes-she-codes"><i class="fa-brands fa-github"></i> Github |</a></li>
+        <li><a href="https://www.instagram.com/LebohMokwena/"><i class="fa-brands fa-instagram"></i> Instagram |</a></li>
+        <li><a href=""><i class="fa-brands fa-twitter"></i> Twitter</a></li>
     </ul>
 <br />
-    All rights reserved @ 2023 Lebohang Mofo
+    <p class="CopyRight">All rights reserved @ 2023 Lebohang Mofo</p>
 </footer>
 </body>
 </html>
