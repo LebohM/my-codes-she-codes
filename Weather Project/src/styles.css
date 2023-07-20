@@ -93,3 +93,8 @@ h1.temp {
   display: inline-block;
   margin: 5px;
 } 
+.wrapper footer {
+  text-align: center;
+  font-size: 14px;
+  color: wheat;
+}
