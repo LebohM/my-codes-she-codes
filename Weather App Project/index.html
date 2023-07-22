@@ -14,24 +14,24 @@
       <div class="weather-wrapper"> 
         <div class="wrapper">
           <div class="location">
-          <h1>Durban</h1>
+          <h1 id="city"></h1>
           <ul>
               <li>friday 05:00</li>
-              <li>Clear</li>
+              <li id="description">Clear</li>
           </ul>
           </div>
         <div class="row">
             <div class="col-6">
                 <div class="clearfix weather-icon">
                     <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" alt="" class="float-left"/>
-                      <strong>13</strong><span class="units">°C |<a href="#">°F</a></span>
+                      <strong id="temp"></strong><span class="units">°C |<a href="#">°F</a></span>
                 </div>
             </div>
             <div class="col-6">
                 <ul>
-                    <li>Precipitation: 0%</li>
-                    <li>Humidity: 0%</li>
-                    <li>Wind: 0%</li>
+                    <!--<li>Precipitation: 0%</li>-->
+                    <li>Humidity:<span id="humidity"></span>%</li>
+                    <li>Wind: <span id="wind"></span> km/h</li>
                 </ul>
             </div>
         </div>
