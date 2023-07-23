@@ -40,10 +40,18 @@ function displayTemp(response){
     let windSpeed = document.querySelector("#wind");
     windSpeed.innerHTML = Math.round(response.data.wind.speed);
     let dateTime = document.querySelector("#daytime");
-    dateTime.innerHTML = formatDate(response.data.dt*1000);
+    dateTime.innerHTML = formatDate(response.data.dt * 1000);
+    let weatherIcon = document.querySelector("#weather-icon");
+    weatherIcon.setAttribute(
+      "src",
+      `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    );
+
+
 }
 
 let Apikey = "1f151e560699fdd0aaf7cad161399047";
-const ApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=new york&appid=${Apikey}&units=metric`;
+let city = "sydney";
+const ApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${Apikey}&units=metric`;
 
 axios.get(ApiUrl).then(displayTemp);
