@@ -14,12 +14,14 @@ ul{
 }
 li{
     list-style: none;
-    text-transform: capitalize;
     color: rgb(135,135,135);
     font-size: 16px;
     height: 18.8889px;
     line-height: 19.2px;
     text-align: left;
+}
+li:first-letter{
+    text-transform: capitalize;
 }
 .weather-wrapper{
     max-width: 500px;
