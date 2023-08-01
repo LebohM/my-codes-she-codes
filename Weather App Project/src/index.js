@@ -24,7 +24,7 @@ function formatDate(timestamp){
 }
 
 function displayTemp(response){
-    console.log(response);
+    //console.log(response);
     let Currentcity = document.querySelector("#city");
     Currentcity.innerHTML = response.data.name;
 
@@ -48,9 +48,13 @@ function displayTemp(response){
     );
 }
 
-function HandleSearchSubmit(event){
+function Search(){
+
+}
+
+function Search(event){
   event.preventDefault();
-  let cityInputElement = document.querySelector("#city-input");
+  let cityInputElement = document.querySelector("#cityInput");
   console.log(cityInputElement.value);
 }
 
@@ -60,5 +64,5 @@ const ApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=
 
 axios.get(ApiUrl).then(displayTemp);
 
-let form = document.querySelector("#search-form");
-form.addEventListener("submit", HandleSearchSubmit);
+let form = document.querySelector("#searchForm");
+form.addEventListener("submit", Search);
