@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container h2{
+    font-size: 30px;
+    margin: 0;
+}
+.container h1{
+    font-size: 96px;
+     margin: 0;
+}
+.container h3{
+    font-weight: normal;
+     margin: 0;
+}
+.container .buttons{
+    margin-top: 20px;
+}
+
+.container .buttons input{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    display:inline; 
+}
+
+.abt-me{
+    margin-left: 50px;
+    background-color: #3477fb;
+    color: white;
+    height: 50px;
+    padding: 30px;
+    box-shadow: 0 5px 10px;
+    border: 2px solid #3477fb;
+}
+.cntct-me{
+    margin-right: 50px;
+    color: #3477fb;
+    height: 50px;
+}
