@@ -1,6 +1,6 @@
 .container{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
 }
 .container h2{
     font-size: 30px;
@@ -38,4 +38,46 @@
     margin-right: 50px;
     color: #3477fb;
     height: 50px;
+}
+/********************* About Me ************************/
+.About{
+    width: 100%;
+    text-align: center;
+}
+.About h1{
+    font-size: 96px;
+    margin: 0;
+}
+.About h3{
+    font-size: 24px;
+    margin: 0;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    height: 300px; 
+    padding: 20px 35px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: rgb(102, 101, 101);
+    color: whitesmoke;
+    font-size: 18px;
+}
+/********************* Contact Me ************************/
+.contact{
+    width: 100%;
+    text-align: center;
+    
+}
+.contact h2{
+    font-size: 30px;
 }
