@@ -33,14 +33,14 @@
     height: 50px;
     padding: 10px;
     box-shadow: 0 5px 10px #59595a;
-    /**margin-right: 20px;*/
+    
 }
 .buttons a .cntct-me{
     border: 1px solid #3477fb;
     height: 50px;
     color: #3477fb;
     padding: 5px;
-    /*margin-left: 20px;*/
+    
 }
 /********************* About Me ************************/
 .About{
