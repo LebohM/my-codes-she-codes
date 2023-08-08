@@ -1,7 +1,7 @@
 *{
     padding:0;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
     box-sizing: border-box;
 }
 
@@ -9,10 +9,8 @@
     height: 100vh;
     width: 100%;
     background-image: url(./Images/william-warby-ld4wZGqlLF4-unsplash.jpg);
-    /*background-color: dimgrey;*/
     background-size: cover;
     background-position: center;
-    /*opacity: 0.5;*/
 }
 nav{
     display: flex;
@@ -249,7 +247,6 @@ h5{
     font-size: 17px;
     margin-bottom: 100px;
     justify-content: space-around; 
-   /* background-image: linear-gradient(to bottom,#F1916D, #F1916D, #F5D7DB, #BD83B8, #473E66, #1B3358, #06142E);*/
 }
 
 .form-card{
@@ -261,8 +258,6 @@ h5{
    padding: 20px 35px;
    background:#474747;
    opacity:40%;
-
-   /*background:linear-gradient(to bottom, #BD83B8,#473E66);*/
    border-radius: 20px;
    position:relative;
    overflow: hidden;
@@ -299,7 +294,7 @@ footer{
     justify-content: center;
 }
 footer p:nth-child(1){
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(255, 255, 255);
     margin: 20px;
     font-weight: bold;
@@ -322,7 +317,6 @@ footer ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-/**text-transform: capitalize;*/
 }
 footer ul li a i{
     width: 35px;
