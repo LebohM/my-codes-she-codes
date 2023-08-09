@@ -39,9 +39,31 @@
     border: 1px solid #3477fb;
     height: 50px;
     color: #3477fb;
-    padding: 5px;
-    
+    padding: 5px;  
 }
+.yoga-app{
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: #474747;
+}
+.yoga-app img{
+    margin: 50px;
+    width: 430px;
+    height:auto;
+}
+.yoga-app .paragraph{
+     width: 550px;
+     color:blanchedalmond;
+     letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px ;
+    margin-bottom: 45px;
+}
+
 /********************* About Me ************************/
 .About{
     width: 100%;
@@ -56,24 +78,26 @@
     margin: 0;
 }
 
+.About p{
+    font-size: 16px;
+}
 .card-wrapper{
     display: flex;
     justify-content: center;
     min-height: 400px;
     align-items: center;
 }
+
 .card{
     width: 300px;
     height: 350px; 
-    padding: 20px 35px;
+    padding: 10px 10px;
     display: block;
     overflow: hidden;
-    text-align: center;
     margin: 15px;
-    border-radius: 20px;
-    background-color: rgb(102, 101, 101);
-    color: whitesmoke;
-    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(250, 248, 248);
+    box-shadow: 2px 2px 5px 2px #59595a;
 }
 /********************* Contact Me ************************/
 .contact{
