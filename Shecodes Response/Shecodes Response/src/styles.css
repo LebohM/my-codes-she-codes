@@ -1,0 +1,110 @@
+.container{
+    text-align: center;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+}
+.container h2{
+    font-size: 30px;
+    margin: 0;
+}
+.container h1{
+    font-size: 96px;
+     margin: 0;
+}
+.container h3{
+    font-weight: normal;
+     margin: 0;
+}
+.container .buttons{
+    margin-top: 20px;
+}
+
+.container .buttons input{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    display: inline-flex;
+    margin: 30px 30px;
+}
+
+.buttons a .abt-me{
+    margin-left: 50px;
+    background-color: #3477fb;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    box-shadow: 0 5px 10px #59595a;
+    
+}
+.buttons a .cntct-me{
+    border: 1px solid #3477fb;
+    height: 50px;
+    color: #3477fb;
+    padding: 5px;  
+}
+.yoga-app{
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+   
+}
+.yoga-app img{
+    margin: 50px;
+    width: 430px;
+    height:auto;
+    background-color: #d9d5d5;
+}
+.yoga-app .paragraph{
+     width: 550px;
+     color:blanchedalmond;
+     letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px ;
+    margin-bottom: 45px;
+}
+
+/********************* About Me ************************/
+.About{
+    width: 100%;
+    text-align: center;
+}
+.About h1{
+    font-size: 96px;
+    margin: 0;
+}
+.About h3{
+    font-size: 24px;
+    margin: 0;
+}
+
+.About p{
+    font-size: 16px;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: 350px; 
+    padding: 10px 10px;
+    display: block;
+    overflow: hidden;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: rgb(250, 248, 248);
+    box-shadow: 2px 2px 5px 2px #59595a;
+}
+/********************* Contact Me ************************/
+.contact{
+    width: 100%;
+    text-align: center; 
+}
+.contact h2{
+    font-size: 50px;
+}
