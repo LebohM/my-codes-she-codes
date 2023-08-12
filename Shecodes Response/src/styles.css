@@ -41,6 +41,7 @@
     color: #3477fb;
     padding: 5px;  
 }
+/**************************************Sections**********************************************/
 .yoga-app{
     width: 100%;
     padding: 100px 0px;
@@ -48,22 +49,57 @@
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
-    background-color: #474747;
-}
-.yoga-app img{
-    margin: 50px;
-    width: 430px;
-    height:auto;
+   
 }
 .yoga-app .paragraph{
-     width: 550px;
-     color:blanchedalmond;
-     letter-spacing: 1px;
+    width: 550px;
+    color:rgb(83, 82, 81);
+    letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px ;
     margin-bottom: 45px;
 }
-
+.yoga-app .weather-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.yoga-app .weatherPara{
+    width: 550px;
+    margin-bottom: 45px;
+    color:rgb(83, 82, 81);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px ;
+}
+.yoga-app .Wimage{
+    margin: 20px;
+    width: 430px;
+    height: 430px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #2e2e2f;
+    background-color: #dddada;
+}
+/**** css  generic classes******/
+.yoga-app .image{
+    margin: 20px;
+    width: 430px;
+    height: 430px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #2e2e2f;
+    background-color: #dddada;
+}
+.yoga-app .LaunchBtns{
+    padding: 10px;
+    background-color: #3477fb;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 5px 10px #59595a;
+}
 /********************* About Me ************************/
 .About{
     width: 100%;
