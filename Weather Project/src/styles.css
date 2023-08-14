@@ -5,14 +5,14 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: #222;
+  background: #403f3f;
   /*background-image: url('https://source.unsplash.com/1600x900/?landscape');*/
   font-size: 120%;
 }
 
 .card {
   /*background: #000000d0;*/
-  background-image: linear-gradient(to right, #a89cf6, hsl(164, 88%, 74%));
+  background-image: linear-gradient(to bottom, #a89cf6, #86A8CF, #E1CBD7, #C38EB4);
   color: white;
   padding: 2em;
   border-radius: 30px;
