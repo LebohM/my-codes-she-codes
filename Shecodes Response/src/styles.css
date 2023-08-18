@@ -3,6 +3,22 @@
     background: linear-gradient(359.3deg, rgb(196, 214, 252) 1%, rgba(187, 187, 187, 0) 70.9%);
 /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
 }
+/**generic classes**/
+@media (max-width:600px) {
+    .container .headings{
+        text-align: center;
+        color: #3477fb;
+    }
+}
+
+@media (max-width:600px){
+    .yoga-app .yoga-text{
+        text-align: center;
+        align-items: center;
+        display:inline;
+        color: #3477fb;
+    }
+}
 .container h2{
     font-size: 30px;
     margin: 0;
