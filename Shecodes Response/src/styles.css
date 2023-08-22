@@ -3,21 +3,9 @@
     background: linear-gradient(359.3deg, rgb(196, 214, 252) 1%, rgba(187, 187, 187, 0) 70.9%);
 /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
 }
-/**generic classes**/
-@media (max-width:600px) {
-    .container .headings{
-        text-align: center;
-        color: #3477fb;
-    }
-}
 
-@media (max-width:600px){
-    .yoga-app .yoga-text{
-        text-align: center;
-        align-items: center;
-        display:inline;
-        color: #3477fb;
-    }
+.nav{
+    padding: 30px;
 }
 .container h2{
     font-size: 30px;
@@ -117,6 +105,25 @@
     border-style: none;
     box-shadow: 0 5px 10px #59595a;
 }
+
+/**generic classes**/
+@media (max-width:600px) {
+    .container .headings{
+        text-align: center;
+        color: #3477fb;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px){
+    .yoga-app .yoga-text{
+        text-align: center;
+        align-items: center;
+        display:inline;
+        color: #3477fb;
+        flex-direction: column;
+    }
+}
 /********************* About Me ************************/
 .About{
     width: 100%;
@@ -133,33 +140,37 @@
 
 .About p{
     font-size: 16px;
+    padding: 10px;
+    margin: 30px;
 }
 .card-wrapper{
     display: flex;
-    /*justify-content: center;*/
+    justify-content: center;
     min-height: 400px;
     align-items: center;
     flex-direction: row;
 }
 
-@media (max-width: 600px) {
-  .card-wrapper {
-    flex-direction: column;
-  }
-}
 .card{
     width: 300px;
     height: 350px; 
     padding: 10px 10px;
     display: block;
     overflow: hidden;
+    flex-direction: row;
     margin: 15px;
     border-radius: 10px;
     background-color: rgb(250, 248, 248);
     box-shadow: 2px 2px 5px 2px #59595a;
 }
+@media (max-width: 600px) {
+  .card{
+    flex-direction: column;
+  }
+}
 /********************* Contact Me ************************/
 .contact{
+    margin-top: 50px;
     width: 100%;
     text-align: center; 
 }
