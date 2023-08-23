@@ -110,7 +110,6 @@
 @media (max-width:600px) {
     .container .headings{
         text-align: center;
-        color: #3477fb;
         flex-direction: column;
     }
 }
@@ -120,7 +119,6 @@
         text-align: center;
         align-items: center;
         display:inline;
-        color: #3477fb;
         flex-direction: column;
     }
 }
